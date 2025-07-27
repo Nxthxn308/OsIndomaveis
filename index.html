@@ -1,16 +1,37 @@
-<!DOCTYPE html>
+index_html = f"""<!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Os Indomáveis</title>
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css" />
+
 </head>
+
 <body>
+
   <div class="container">
-    <h1>Clã Os Indomáveis</h1>
-    <p>Somos mais que um clã. Somos LENDAS.</p>
+
+    <img src="oid_logo_green.png" alt="Logo OID" class="logo" />
+
+    <h1>CLÃ OS INDOMÁVEIS</h1>
+
+    <p>Entre em nosso servidor do Discord</p>
+
     <a href="https://discord.gg/CHXbCytJ8j" target="_blank" class="botao">Entrar no Discord</a>
+
   </div>
+
 </body>
+
 </html>
+
+"""
+
+(site_dir / "index.html").write_text(index_html)
