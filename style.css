@@ -130,7 +130,7 @@ footer {
 }
 
 .anuncio-card {
-  background-color: #2d2d2d;
+  background-color: #00ff88;
   padding: 20px;
   border-radius: 16px;
   width: 280px;
@@ -160,7 +160,7 @@ footer {
 }
 
 .anuncio-card button:hover {
-  background-color: #00cc6a;
+  background-color: #444;
 }
 
 .botao-todos-anuncios {
@@ -168,7 +168,7 @@ footer {
 }
 
 .botao-todos-anuncios button {
-  background-color: #2d2d2d;
+  background-color: #00ff88;
   color: #000;
   border: none;
   padding: 12px 24px;
