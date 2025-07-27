@@ -156,11 +156,13 @@ footer {
   padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-.anuncio-card button:hover {
-  background-color: #444;
+.anuncio-card button:hover,
+.anuncio-card button: active {
+background-color: #2d2d2d;
+color: #000000
 }
 
 .botao-todos-anuncios {
