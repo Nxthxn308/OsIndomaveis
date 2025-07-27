@@ -109,3 +109,74 @@ footer {
 .galeria-grid img:hover {
   transform: scale(1.05);
 }
+
+#novos-anuncios {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#novos-anuncios h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.anuncios-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.anuncio-card {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 16px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.anuncio-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.anuncio-card p {
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.anuncio-card button {
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.anuncio-card button:hover {
+  background-color: #bbb;
+}
+
+.botao-todos-anuncios {
+  margin-top: 30px;
+}
+
+.botao-todos-anuncios button {
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.botao-todos-anuncios button:hover {
+  background-color: #bbb;
+}
