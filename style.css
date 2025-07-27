@@ -213,13 +213,14 @@ color: #000000
 }
 
 .link-card h3 {
-  color: #00ff88;
+  color: #000;
   margin-bottom: 10px;
 }
 
 .link-card p {
   font-size: 1rem;
   margin-bottom: 15px;
+  color: #000;
 }
 
 .botao-link {
